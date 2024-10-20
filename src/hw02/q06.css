@@ -1,0 +1,95 @@
+.container-1 {
+    width: 550px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    grid-area: 1 / 1 / 2 / 6;
+  }
+  
+  .container-2 {
+    width: 210px;
+    height: 210px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    grid-area: 4 / 3 / 2 / 1;
+  }
+  
+  .container-3 {
+    width: 100px;
+    height: 210px;
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    grid-area: 4 / 5 / 2 / 3;
+  }
+  
+  .container-4 {
+    width: 220px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    grid-area: 2 / 4 / 8 / 6;
+  }
+  
+  .container-5 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    grid-area: 3 / 4 / 4 / 4;
+  }
+  
+  .container-6 {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    grid-area: 3 / 6 / 3 / 5;
+  }
+  
+  .container-7 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    margin: 5px
+  }
+  
+  .container-8 {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    margin: 5px
+  }
+  
+  .container-9 {
+    width: 330px;
+    height: 100px;
+    background-color: aquamarine;
+    color: white;
+    text-align: center;
+    margin: 5px
+  }
+  
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-auto-rows: 100px;
+    grid-gap:10px;
+    width: 340px;
+    justify-content: space-evenly;
+  }  

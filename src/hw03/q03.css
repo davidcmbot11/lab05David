@@ -1,0 +1,52 @@
+#root {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+ .title {
+    text-align: center;
+    color:hsl(183, 83%, 23%);
+  }
+  
+  h2 {
+    color: #078394;
+  }
+  p {
+    line-height: 1.6;
+  }
+  #link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  #link:hover {
+    text-decoration: underline;
+  }
+  #buyListContainer {
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 614px;
+    margin: auto;
+  }
+  #buyListContainer ul {
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 50px;
+  }
+  #buyListContainer li {
+    width: 50%;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #94d9f594;;
+    border-radius: 5px;
+  }
+  #buyListContainer li:hover {
+    background-color: #a3a3a374;
+    cursor: pointer;
+  }
+  
